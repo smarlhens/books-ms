@@ -4,4 +4,4 @@ app:
     - 8080
 
 db:
-  image: mongo
+  image: mongo:3-stretch

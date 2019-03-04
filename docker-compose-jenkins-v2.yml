@@ -24,7 +24,7 @@ services:
 
   db:
     container_name: books-ms-db
-    image: mongo
+    image: mongo:3-stretch
     environment:
       - SERVICE_NAME=books-ms-db
 
