@@ -24,7 +24,7 @@ app-green:
 
 db:
   container_name: books-ms-db
-  image: mongo
+  image: mongo:3-stretch
   log_driver: syslog
   log_opt:
     syslog-address: tcp://10.100.192.200:25826

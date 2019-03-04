@@ -21,7 +21,7 @@ app-green:
 
 db:
   container_name: books-ms-db
-  image: mongo
+  image: mongo:3-stretch
   net: books-ms
   environment:
     - SERVICE_NAME=books-ms-db
